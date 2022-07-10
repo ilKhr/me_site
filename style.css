@@ -1,0 +1,52 @@
+/* reset */
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{
+	margin:0;
+	padding:0;
+	height: 100%;
+	width: 100%;
+	border: none;
+}
+
+ul{ list-style:none;}
+
+.image-list-wrapper{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 400px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 200px;
+    flex-flow: wrap column;
+}
+
+.image-list__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90px;
+    max-height: 90px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.image {
+    width: 60%;
+}
+
+.grow{
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover{
+    transform: scale(1.5);
+}
